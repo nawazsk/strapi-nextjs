@@ -1,15 +1,20 @@
-import Header from './Header'
+import Header from './Header';
+import CustomHead from "./CustomHead";
+import css from 'styled-jsx/css';
 
-const layoutStyle = {
-  margin: 20,
-  padding: 20,
-  border: '1px solid #DDD'
-}
+const Styles = css`
+  .container {
+      width: 1000px;
+      margin: 0 auto;
+  }
+`;
 
 const Layout = (props) => (
-  <div style={layoutStyle}>
+  <div className="container">
+    <CustomHead />
     <Header />
     {props.children}
+    <style jsx>{Styles}</style>
   </div>
 )
 
