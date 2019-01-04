@@ -18,6 +18,7 @@ const Styles = css`
 
     li {
         list-style: none;
+        margin-right: 10px;
     }
 
     span {
@@ -44,16 +45,6 @@ const Header = () => (
             <li>
                 <Link href="/about">
                     <span>About</span>
-                </Link>
-            </li>
-            <li>
-                <Link href="/about">
-                    <span>Contact</span>
-                </Link>
-            </li>
-            <li>
-                <Link href="/about">
-                    <span>Privacy Policy</span>
                 </Link>
             </li>
         </ul>
