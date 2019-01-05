@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "post",
+  "info": {
+    "name": "post",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "title": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
